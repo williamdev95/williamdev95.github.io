@@ -2,17 +2,16 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="Portfólio profissional de William, desenvolvedor em formação com projetos em HTML, CSS, JavaScript, Python e SQL."
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio William</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -29,6 +28,14 @@
       </p>
     </header>
 
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="mailto:seuemail@email.com">Contato</a></li>
+      </ul>
+    </nav>
+
     <section id="projetos">
       <div class="projeto">
         <h2 class="titulo-projeto">
@@ -43,7 +50,11 @@
           Desenvolvido com foco em clareza, responsividade e profissionalismo,
           utilizando <strong>HTML, CSS, JavaScript e Python</strong>.
         </p>
-        <a href="projects/projeto-dashboard.html">Ver mais</a>
+        <a
+          href="https://williamdev95.github.io/dashboard-frontend/"
+          target="_blank"
+          >Ver mais</a
+        >
       </div>
     </section>
 
@@ -53,11 +64,4 @@
 
     <script src="script.js"></script>
   </body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#projetos">Projetos</a></li>
-      <li><a href="mailto:seuemail@email.com">Contato</a></li>
-    </ul>
-  </nav>
 </html>
