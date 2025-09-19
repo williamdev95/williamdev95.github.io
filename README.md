@@ -24,6 +24,14 @@ Tecnologias: **HTML, CSS, JavaScript, Python, Chart.js**
 
 ---
 
+### 📅 Calendário Interativo com Eventos
+
+Aplicação web que permite visualizar os dias do mês, adicionar eventos personalizados, marcar como concluído e excluir individualmente.  
+Tecnologias: **HTML, CSS, JavaScript**  
+🔗 [Ver projeto](https://williamdev95.github.io/projetos/calendario/)
+
+---
+
 ## 🛠️ Tecnologias que uso
 
 - HTML5, CSS3, JavaScript
